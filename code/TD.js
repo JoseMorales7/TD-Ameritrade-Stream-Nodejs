@@ -269,15 +269,14 @@ function getFormData(html) {
     })
 
     //Remove these values
-    formDataVals['fp_fp2DeviceId'] = "a28f889046fd14ccc90afdf2a7314dc1"
-    formDataVals['fp_browser'] = "mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/95.0.4638.69 safari/537.36|5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36|Win32"
-    formDataVals['fp_screen'] = "24|2048|1152|1112"
-    formDataVals['fp_timezone'] = "-4"
-    formDataVals['fp_language'] = "lang=en-US|syslang=|userlang="
+    formDataVals['fp_fp2DeviceId'] = ""
+    formDataVals['fp_browser'] = ""
+    formDataVals['fp_screen'] = ""
+    formDataVals['fp_timezone'] = ""
+    formDataVals['fp_language'] = ""
     formDataVals['fp_java'] = "0"
     formDataVals['fp_cookie'] = "1"
-    formDataVals['fp_cfp'] = `{"navigator":{"properties":{"vendorSub":"","productSub":"20030107","vendor":"Google Inc.","maxTouchPoints":"0","doNotTrack":"1","hardwareConcurrency":"8","cookieEnabled":"true","appCodeName":"Mozilla","appName":"Netscape","appVersion":"5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36","platform":"Win32","product":"Gecko","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36","language":"en-US","onLine":"true","webdriver":"false","pdfViewerEnabled":"true","deviceMemory":"8"},"propertiesMD5":"a006066f8f0b5b552d54e04c129191ac","navorderMD5":"401f315dbbf60c4fd7e5144480cbba24","navmethods":"getBattery|getGamepads|javaEnabled|sendBeacon|vibrate|canShare|share|clearAppBadge|setAppBadge|getInstalledRelatedApps|getUserMedia|requestMIDIAccess|requestMediaKeySystemAccess|webkitGetUserMedia|registerProtocolHandler|unregisterProtocolHandler","navmethMD5":"af460b6ebd54c54139ff3cd26200a2ad"},"screen":{"properties":{"availWidth":"2048","availHeight":"1112","width":"2048","height":"1152","colorDepth":"24","pixelDepth":"24","availLeft":"0","availTop":"0"},"propertiesMD5":"dfef207f74593100d936161e78bf7b7b","tamper":false},"timezone":"-5|-4","canvas":"cebc6be1cee595e677cc237618af7fae","java":false,"localstorage":true,"sessionstorage":true,"indexedDB":true,"plugins":{"names":"PDF Viewer|Chrome PDF Viewer|Chromium PDF Viewer|Microsoft Edge PDF Viewer|WebKit built-in PDF|Portable Document Format|Portable Document Format","namesMD5":"3a6881a57e9dc3e47168b4f7f5076558"},"fonts":"7db87dfa8a1376a6f6e99e4f9b7b2ba6","mathroutines":"11013.232920103324|-1.4214488238747245","md5":"4fbf4dd3c564fccd6ef57004a019bc06","latency":68,"form":{"fields":"su_username|su_password|rememberuserid|authorize|reject"},"clkhz":null}`
-
+    formDataVals['fp_cfp'] = ""
     delete formDataVals['undefined']
 
     return formDataVals
