@@ -268,7 +268,8 @@ function getFormData(html) {
         formDataVals[attrs.name] = attrs.value
     })
 
-    //Remove these values
+    //You should put values here based on what values are sent in the actual request
+    //Login using your TD Ameritrade Link and looks at the requests from the networks tab
     formDataVals['fp_fp2DeviceId'] = ""
     formDataVals['fp_browser'] = ""
     formDataVals['fp_screen'] = ""
